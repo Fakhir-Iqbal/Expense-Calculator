@@ -1,0 +1,128 @@
+        
+           
+           
+           body{
+                background-image: url(https://wallpaperaccess.com/full/4990895.jpg);
+                background-position: cover;
+                width: auto;
+                height: 100%;
+            }
+        
+            h1{
+                margin-top: 3%;
+                text-align: center;
+                font-style: italic;
+                font-family: system-ui;
+                color: #fff;
+                font-size: 45px;
+            }
+        
+            .container{
+                /* display: flex; */
+                flex-wrap: wrap;
+                gap: 100px;
+                justify-content: space-evenly;
+            
+            }
+        
+            .first{
+                display: flex;
+                justify-content: center;
+                gap: 120px;
+                margin-top: 5%;
+            }
+        
+            .scnd{
+                font-size: 20px;
+            }
+        
+            h2{
+                text-align: center;
+                font-style: oblique;
+                font-family: math;
+                font-weight: bolder;
+                color: #fff;
+            }
+        
+            .container2{
+               text-align: center;
+            }
+        
+            input{
+                outline: none;
+                padding: 0px 10px;
+                height: 35px;
+                width: 300px;
+                background: #ffffff;
+                border: 2px solid #54545466;
+                border-radius: 15px;
+                box-shadow: -1px -3px 20px white, 3px 3px 95px rgba(0, 0, 0, 3);
+                font-style: oblique;   
+            }
+        
+            .container3{
+                text-align: center;
+                margin-top: 5%;
+            }
+        
+            #green{
+                height: 38px;
+                width: 145px;
+                border-radius: 15px;
+                color: #fff;
+                background: #48fd0038;
+                border: 2px solid #174d0054;
+                box-shadow: -1px -3px 20px darkgreen, 3px 3px 95px rgba(0, 0, 0, 3);
+                cursor: pointer;
+                font-size: 15px;
+                font-style: italic;
+                font-family: system-ui;
+                font-weight: bolder;
+            }
+            #green:hover{
+                scale: 1.1;
+                transition-duration: 2s;
+            }
+        
+            #blue{
+                height: 38px;
+                width: 145px;
+                border-radius: 15px;
+                color: #fff;
+                background: #0006fd36;
+                border: 2px solid #1000ff54;
+                box-shadow: -1px -3px 20px blue, 3px 3px 95px rgba(0, 0, 0, 3);
+                cursor: pointer;
+                font-size: 15px;
+                font-style: italic;
+                font-family: system-ui;
+                font-weight: bolder;
+            }    
+            #blue:hover{
+                scale: 1.1;
+                transition-duration: 2s;
+            }
+        
+            .container4{
+                text-align: center;
+                margin-top: 5%;
+            }
+            
+            #check-status{
+                height: 50px;
+                width: 200px;
+                border-radius: 16px;
+                color: #3b3a3ae0;
+                background: #fff;
+                border: 2px solid #acacac;
+                box-shadow: -1px -3px 20px white, 3px 3px 95px rgba(0, 0, 0, 3);
+                cursor: pointer;
+                font-size: 15px;
+                font-style: italic;
+                font-family: system-ui;
+                font-weight: 900;
+            }    
+            #check-status:hover{
+                scale: 1.1;
+                transition-duration: 2s;
+            }

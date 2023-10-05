@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Expense Calculator</title>
+        <link rel="stylesheet" href="Style.css">
+    
+    </head>
+    
+    <body>
+    
+        <div class="main">
+        
+            <h1>_Expense  Calculator_ </h1>
+            <hr>
+        
+            <div class="container">
+                <div class="first">
+                    <div>
+                        <h2>Income</h2>
+                        <h2 id="income-amount">0</h2>
+                    </div>
+                
+                    <div>
+                        <h2>Expense</h2>
+                        <h2 id="expense-amount">0</h2>
+                    </div>
+                </div>
+                
+                <div class="scnd">
+                    <div>
+                        <h2>Profit/Loss</h2>
+                        <h2 id="profit-amount">0</h2>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container2">
+                <input id="amount" type="number" placeholder="Enter Your Budget 💲" required>
+            </div>
+        
+            <div class="container3">
+                <button id="blue" onclick="expense()">Expense</button>          
+                <button id="green" onclick="incomeAmount()">Income</button>
+            </div>
+        
+            <div class="container4">
+                <button class="ckeck-status" id="check-status" onclick="checkStatus()">Check Your Balance</button>
+            </div>
+        
+        </div>
+        
+
+
+        <script src="function.js" ></script>
+    
+    </body>
+
+</html>
